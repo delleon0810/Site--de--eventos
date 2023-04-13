@@ -1,0 +1,90 @@
+        <div class="wrapper">
+            <a href="#demo-modal">Casamento</a>
+          </div>
+           
+          <div id="demo-modal" class="modal">
+            <div class="modal__content">
+              <h1>Casamento</h1>
+           
+              <p>
+                Oferecemos casamentos:
+                <ul>
+                    <li> cadeira</li>
+                    <li> mesa</li>
+                    <li> flor</li>
+                </ul>
+              </p>
+           
+              <div class="modal__footer">
+                <a href="#" class="modal__footer-btn-close"> Fechar </a>
+              </div>
+           
+              <a href="#" class="modal__close">&times;</a>
+            </div>
+          </div>
+
+
+
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(239, 215, 254);
+  }
+   
+  .wrapper a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #5757a2b3;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: rgb(239, 215, 254);
+    font-family: "Roboto", sans-serif;
+  }
+
+  .modal {
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    transition: all 0.4s;
+  }
+   
+  .modal:target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .modal__content {
+    float: 40%
+    border-radius: 4px;
+    width: 500px;
+    max-width: 90%;
+    background: rgba(230, 207, 255, 0.836);
+    padding: 1em 2em;
+  }
+   
+  .modal__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #20379c;
+    text-decoration: none;
+  }
+   
+  .modal__footer-btn-close {
+    width: 150px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #5757a2b3;
+    color: #000000;
+    border-radius: 3px;
+  }

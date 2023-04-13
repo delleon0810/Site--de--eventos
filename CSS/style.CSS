@@ -1,6 +1,9 @@
 * {
     margin: 0;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 body::-webkit-scrollbar {
     width: 13px;
@@ -28,8 +31,9 @@ header {
 
 h1 {
     align-self: center;
-    font-family: 'Segoe UI', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
+    color: #383872;
 }
 
 #logo--1 {
@@ -70,7 +74,7 @@ h1 {
     padding: 4px;
     width: 120px;
     border-radius: 20px;
-    font-family: 'Mea Culpa', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #5757a2b3;
     border: none;
     font-size: 15px;
@@ -88,7 +92,9 @@ h1 {
     justify-content: center;
     width: 100%;
     text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .section{
     display: flex;
       background-image: url("/Imagens/Fundo.jpg");
@@ -110,6 +116,7 @@ a {
 .text {
     display: flex;
     flex-direction: column;
+    color: aliceblue;
 }
 
 .orcamento {
@@ -179,8 +186,30 @@ footer{
     background-image: url(/Imagens/Casamento/casamento.jpg);
     background-size: 105%;
     background-position-y: 50%;
-    color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
+}
+.pdiveven{
+    text-align: center;
+    width: 100%;
+    background-color: #0000007b;
+    border: 1px solid #babafe82;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.peventreal{
+    text-align: center;
+    width: 100%;
+    background-color: #0000007b;
+    border: 1px solid #babafe82;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #aniver {
@@ -188,7 +217,7 @@ footer{
     background-size: 100%;
     background-position-y: 50%;
     color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
 }
 
 #debut {
@@ -196,7 +225,7 @@ footer{
     background-size: 100%;
     background-position: top;
     color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
 }
 
 #format {
@@ -204,7 +233,7 @@ footer{
     background-size: 100%;
     background-position-y: 50%;
     color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
 }
 
 #fest {
@@ -212,7 +241,7 @@ footer{
     background-size: 100%;
     background-position-y: 50%;
     color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
 }
 
 #outros {
@@ -220,7 +249,7 @@ footer{
     background-size: 100%;
     background-position-y: 50%;
     color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
 }
 
 #ilumi {
@@ -228,7 +257,7 @@ footer{
     background-size: 100%;
     background-position-y: top;
     color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
 }
 
 #som {
@@ -236,7 +265,7 @@ footer{
     background-size: 100%;
     background-position-y: 50%;
     color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
 }
 
 #decor {
@@ -244,7 +273,7 @@ footer{
     background-size: 100%;
     background-position-y: 50%;
     color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
 }
 
 #infant {
@@ -252,7 +281,7 @@ footer{
     background-size: 100%;
     background-position-y: 50%;
     color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
 }
 
 #buff {
@@ -260,7 +289,7 @@ footer{
     background-size: 100%;
     background-position-y: 50%;
     color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
 }
 
 #fotgraf {
@@ -268,7 +297,7 @@ footer{
     background-size: 100%;
     background-position-y: 50%;
     color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
 }
 
 #quinzemaria {
@@ -276,7 +305,7 @@ footer{
     background-size: 100%;
     background-position-y: 50%;
     color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
 }
 
 #carlrenat {
@@ -284,7 +313,7 @@ footer{
     background-size: 100%;
     background-position-y: 50%;
     color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
 }
 
 #nutri {
@@ -292,7 +321,7 @@ footer{
     background-size: 100%;
     background-position-y: 50%;
     color: azure;
-    box-shadow: 5px 5px 37px 17px #0000006a;
+    box-shadow: 5px 5px 37px 17px #00000031;
 }
 
 <style>
@@ -316,71 +345,16 @@ footer{
 }
 </style>
 
-.wrapper {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgb(239, 215, 254);
-  }
-   
-  .wrapper a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px;
-    background-color: #5757a2b3;
-    border-radius: 8px;
-    text-transform: uppercase;
-    color: rgb(239, 215, 254);
-    font-family: "Roboto", sans-serif;
-  }
-
-  .modal {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    align-items: center;
-    justify-content: center;
-    background: rgb(22, 211, 38);
-    transition: all 0.4s;
-  }
-   
-  .modal:target {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .modal__content {
-    border-radius: 4px;
-    position: relative;
-    width: 500px;
-    max-width: 90%;
-    background: #6c3838;
-    padding: 1em 2em;
-  }
-   
-  .modal__footer-btn-close {
-    text-align: right;
-    margin-top: 50px;
-  }
-   
-  .modal__close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: #9c2020;
-    text-decoration: none;
-  }
-   
-  .modal__footer-btn-close {
-    width: 150px;
-    padding: 10px;
-    text-decoration: none;
-    background-color: #b2a731;
-    color: #000000;
-    border-radius: 3px;
-  }
+#container, #popup{
+    width: 600px;
+    height: 600px;
+  
+}
+#pag{
+    width: 600px;
+    height: 1200px;
+}
+#popup{
+    margin-top: 600px;
+    background-color: grey
+}
