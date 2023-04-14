@@ -116,3 +116,28 @@ a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
 }
+
+.button{
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    float: right;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 20px;
+    width: 45%;
+}
+
+#enviar{
+    background-color: #383872a2;
+    border-radius: 5px;
+}
+
+#enviar:hover:not(.active) {
+    background-color: rgb(87, 125, 126);
+}
+li{
+    list-style: square;
+}
